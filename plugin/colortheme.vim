@@ -1,3 +1,9 @@
+" File              : colortheme.vim
+" License           : The MIT License (MIT)
+" Author            : Gao Chengzhi <2673730435@qq.com>
+" Date              : 06.06.2022
+" Last Modified Date: 06.06.2022
+" Last Modified By  : Gao Chengzhi <2673730435@qq.com>
 " Copyright (c) 2022 Gao Chengzhi <2673730435@qq.com>
 "
 " This program is free software: you can redistribute it and/or modify
@@ -15,7 +21,11 @@
 
 
 
+if exists('g:autoloaded_colortheme') || &cp
+  finish
+endif 
  
+let g:autoloaded_colortheme = 1
 
 function s:GetColorList(schemeList) abort
    let l:colorList = []
