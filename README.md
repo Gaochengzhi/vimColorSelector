@@ -1,6 +1,7 @@
 # colorTheme.vim
 
 A colorTheme selector that works like the vscode colortheme command
+build for [Base16 Vim](https://github.com/chriskempson/base16-vim) so you can easily toggle between those colortheme.
 
 ## Useage
 
