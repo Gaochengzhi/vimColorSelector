@@ -2,7 +2,7 @@
 " License           : The MIT License (MIT)
 " Author            : Gao Chengzhi <2673730435@qq.com>
 " Date              : 06.06.2022
-" Last Modified Date: 06.06.2022
+" Last Modified Date: 12.07.2022
 " Last Modified By  : Gao Chengzhi <2673730435@qq.com>
 " Copyright (c) 2022 Gao Chengzhi <2673730435@qq.com>
 "
@@ -70,7 +70,7 @@ endfunction
 
 
 function s:SelectThemeUnderCursor() abort
-    let l:wordUnderCursor = expand("<cword>")
+    let l:wordUnderCursor = getline('.')
     exec "colorscheme" l:wordUnderCursor
     return l:wordUnderCursor
 endfunction
